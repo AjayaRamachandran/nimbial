@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    position: fixed;
+    top: 20px;
+    width: calc(100% - 40px);
+    padding: 10px 20px;
+    font-weight: 700;
+    box-sizing: border-box;
+    border-radius: 999px;
+    background-color: black;
+    justify-content: space-between;
+    font-style: italic;
+    border: 1px solid #222;
+}
+
+.gray {
+    cursor: default;
+    opacity: 0.5;
+}

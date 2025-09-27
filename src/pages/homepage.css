@@ -1,0 +1,26 @@
+/* Wrapper with border radius and clipping */
+.main-banner {
+  width: 100%;
+  height: 100vh; /* full viewport height */
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  padding: 0; /* remove padding to avoid clipping issues */
+}
+
+/* Video centered and covering container */
+.banner-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: 100%; /* fill vertical space */
+  min-width: 100%; /* ensure horizontal fills if screen is wider */
+  transform: translate(-50%, -50%); /* center crop */
+  object-fit: cover;
+  display: block;
+  padding: 10px !important;
+  border-radius: 40px;
+  box-sizing: border-box;
+}
