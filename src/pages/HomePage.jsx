@@ -19,6 +19,13 @@ function HomePage() {
     }
   }, [pathname]);
 
+  // Opening /brand scrolls down to the brand descriptor once, on load only
+  useEffect(() => {
+    if (window.location.pathname.replace(/\/+$/, '') === '/brand' && aboutRef.current) {
+      aboutRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, []);
+
   return (
     <>
       <div className='main-banner'>

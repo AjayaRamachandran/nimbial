@@ -23,9 +23,9 @@ function Footer() {
       </FooterColumn>
       <FooterColumn>
         <div>Symphony</div>
-        <FooterLink href='/'>Home</FooterLink>
-        <FooterLink href='/download'>Download</FooterLink>
-        <FooterLink href='/support'>Donate</FooterLink>
+        <FooterLink href='https://symphony.nimbial.com/'>Home</FooterLink>
+        <FooterLink href='https://symphony.nimbial.com/download'>Download</FooterLink>
+        <FooterLink href='https://symphony.nimbial.com/support'>Donate</FooterLink>
       </FooterColumn>
       <FooterColumn>
         <div>Resources</div>
@@ -36,12 +36,12 @@ function Footer() {
         <div>Brand</div>
         <FooterLink href='/about'>About</FooterLink>
         <FooterLink href='/contact'>Contact</FooterLink>
-        <FooterLink href='/ai'>Nimbial &amp; AI</FooterLink>
+        <FooterLink href='https://symphony.nimbial.com/ai'>Nimbial &amp; AI</FooterLink>
       </FooterColumn>
       <FooterColumn>
         <div>Legal</div>
-        <FooterLink href='/terms-and-conditions'>Terms</FooterLink>
-        <FooterLink href='/privacy-policy'>Privacy</FooterLink>
+        <FooterLink href='https://symphony.nimbial.com/terms-and-conditions'>Terms</FooterLink>
+        <FooterLink href='https://symphony.nimbial.com/privacy-policy'>Privacy</FooterLink>
       </FooterColumn>
     </footer>
   );
